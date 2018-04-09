@@ -20,3 +20,7 @@ describe "Post" do
     expect(post.author.name).to eq("Uncle Bob")
   end
 end
+ej = Author.new("EJ")
+new_post = Post.new("top 10 whatever")
+
+new_post.author=(ej)
